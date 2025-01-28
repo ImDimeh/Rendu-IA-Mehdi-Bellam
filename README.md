@@ -2,6 +2,10 @@
 
 Ce projet permet de dessiner un chiffre sur un canvas et d'utiliser un modèle ONNX pour prédire le chiffre dessiné.
 
+## Lien en ligne du projet 
+
+https://imdimeh.github.io/Rendu-IA-Mehdi-Bellam/
+
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
