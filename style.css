@@ -1,0 +1,73 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #e9f5ff; /* Bleu clair pour un fond doux */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333; /* Couleur de texte neutre pour le contraste */
+}
+
+/* Container for the content */
+.container {
+    text-align: center;
+    background: linear-gradient(135deg, #ffffff, #f0f9ff); /* Gradient subtil */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.2);
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Header styles */
+h1 {
+    font-size: 24px;
+    color: #0056b3; /* Bleu principal */
+    margin-bottom: 20px;
+}
+
+/* Buttons styles */
+button {
+    background-color: #007bff; /* Bleu principal */
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Bleu foncé au survol */
+    box-shadow: 0 6px 15px rgba(0, 86, 179, 0.4);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 86, 179, 0.3);
+}
+
+/* Canvas styles */
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #007bff; /* Bordure en bleu principal */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+}
+
+/* Additional elements */
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0056b3; /* Texte bleu */
+    font-weight: bold;
+}
